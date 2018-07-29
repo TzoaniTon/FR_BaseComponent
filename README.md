@@ -11,6 +11,9 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+1. iOS version 10+
+2. Swift version v4.0+
+
 ## Installation
 
 FR_BaseComponent is available through [CocoaPods](https://cocoapods.org). To install
@@ -22,7 +25,8 @@ pod 'FR_BaseComponent'
 
 ## Author
 
-Tzoani, darksky_ddd@hotmail.com
+Sarinthon Mangkorn-ngam, sarinthonton@gmail.com <br>
+Lalida Jaritsup, lalida.jar@gmail.com
 
 ## License
 
