@@ -232,6 +232,7 @@
 		C6CE51E9738EFA020C4BB2AFFB229DA8 /* ControlProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC76C8484A9BAD416EE0DD7414275CD /* ControlProperty.swift */; };
 		C8432A5D210D7C7B00AB204A /* BaseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8432A5C210D7C7B00AB204A /* BaseCellView.swift */; };
 		C8432A5F210D7C8100AB204A /* BaseCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8432A5E210D7C8100AB204A /* BaseCellViewModel.swift */; };
+		C895FDE5210E0E66003AC248 /* UITextView+AdjustContentHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = C895FDE4210E0E66003AC248 /* UITextView+AdjustContentHeight.swift */; };
 		C8B21114FDC58022D22A6B2E3BA43978 /* Pods-FR_BaseComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5004F88512E5B3086C52FA4F52C89E /* Pods-FR_BaseComponent_Example-dummy.m */; };
 		C9F3C83CCF519D458ED1BD5DBF7FF1FC /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0DFEDF91630CAA9C19FF262A99347 /* Driver.swift */; };
 		CADF22FBB0CE1EA11ED460ECD1123CBE /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA515DCCDA933B9F7857678C34BBCCD7 /* Platform.Linux.swift */; };
@@ -603,6 +604,7 @@
 		C776C04ED28AA9C9D0E449F8F0BD7412 /* UIProgressView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIProgressView+Rx.swift"; path = "RxCocoa/iOS/UIProgressView+Rx.swift"; sourceTree = "<group>"; };
 		C8432A5C210D7C7B00AB204A /* BaseCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCellView.swift; sourceTree = "<group>"; };
 		C8432A5E210D7C8100AB204A /* BaseCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCellViewModel.swift; sourceTree = "<group>"; };
+		C895FDE4210E0E66003AC248 /* UITextView+AdjustContentHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+AdjustContentHeight.swift"; sourceTree = "<group>"; };
 		CAFF50F2F67EFC5BB695F5A4911D9DC8 /* Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generate.swift; path = RxSwift/Observables/Generate.swift; sourceTree = "<group>"; };
 		CB9DDBCC6603E0490BED8A191F8AB53D /* NSLayoutConstraint+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Rx.swift"; path = "RxCocoa/Common/NSLayoutConstraint+Rx.swift"; sourceTree = "<group>"; };
 		CC7301AC975BDA5908367F8430541416 /* Driver+Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Driver+Subscription.swift"; path = "RxCocoa/Traits/Driver/Driver+Subscription.swift"; sourceTree = "<group>"; };
@@ -1098,6 +1100,7 @@
 		C8432A58210D7C5200AB204A /* Development */ = {
 			isa = PBXGroup;
 			children = (
+				C895FDE3210E0E43003AC248 /* Extensions */,
 				C8432A59210D7C6600AB204A /* BaseCell */,
 			);
 			name = Development;
@@ -1127,6 +1130,14 @@
 				C8432A5E210D7C8100AB204A /* BaseCellViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C895FDE3210E0E43003AC248 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C895FDE4210E0E66003AC248 /* UITextView+AdjustContentHeight.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		D2AA2EF1FF7835A69602910A653B9747 /* Development Pods */ = {
@@ -1672,6 +1683,7 @@
 				C8432A5F210D7C8100AB204A /* BaseCellViewModel.swift in Sources */,
 				7F0B176F0D0ECFC57974D54FED216B9A /* ReplaceMe.swift in Sources */,
 				C8432A5D210D7C7B00AB204A /* BaseCellView.swift in Sources */,
+				C895FDE5210E0E66003AC248 /* UITextView+AdjustContentHeight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2009,6 +2021,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
