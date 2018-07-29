@@ -230,8 +230,8 @@
 		C46700AC6E4D37E3CCDF78B0A1CF01F9 /* UIImageView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552A3ABDA9846CD16BD40D46FFBE8C9D /* UIImageView+Rx.swift */; };
 		C52B446C5733DF8D47E2F2A0E2CD0467 /* UITabBarController+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C236ED0E4173134A08C37142BB6D879 /* UITabBarController+Rx.swift */; };
 		C6CE51E9738EFA020C4BB2AFFB229DA8 /* ControlProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC76C8484A9BAD416EE0DD7414275CD /* ControlProperty.swift */; };
-		C8432A37210D70BC00AB204A /* BaseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8432A36210D70BC00AB204A /* BaseCellView.swift */; };
-		C8432A39210D728600AB204A /* BaseCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8432A38210D728600AB204A /* BaseCellViewModel.swift */; };
+		C8432A5D210D7C7B00AB204A /* BaseCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8432A5C210D7C7B00AB204A /* BaseCellView.swift */; };
+		C8432A5F210D7C8100AB204A /* BaseCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8432A5E210D7C8100AB204A /* BaseCellViewModel.swift */; };
 		C8B21114FDC58022D22A6B2E3BA43978 /* Pods-FR_BaseComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5004F88512E5B3086C52FA4F52C89E /* Pods-FR_BaseComponent_Example-dummy.m */; };
 		C9F3C83CCF519D458ED1BD5DBF7FF1FC /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B0DFEDF91630CAA9C19FF262A99347 /* Driver.swift */; };
 		CADF22FBB0CE1EA11ED460ECD1123CBE /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA515DCCDA933B9F7857678C34BBCCD7 /* Platform.Linux.swift */; };
@@ -601,8 +601,8 @@
 		C4E2EAC6827653D410B5107436E1B526 /* RxCocoa.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxCocoa.xcconfig; sourceTree = "<group>"; };
 		C6125930D9AA30C72A1AD172692D5500 /* PublishSubject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PublishSubject.swift; path = RxSwift/Subjects/PublishSubject.swift; sourceTree = "<group>"; };
 		C776C04ED28AA9C9D0E449F8F0BD7412 /* UIProgressView+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIProgressView+Rx.swift"; path = "RxCocoa/iOS/UIProgressView+Rx.swift"; sourceTree = "<group>"; };
-		C8432A36210D70BC00AB204A /* BaseCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellView.swift; sourceTree = "<group>"; };
-		C8432A38210D728600AB204A /* BaseCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCellViewModel.swift; sourceTree = "<group>"; };
+		C8432A5C210D7C7B00AB204A /* BaseCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCellView.swift; sourceTree = "<group>"; };
+		C8432A5E210D7C8100AB204A /* BaseCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseCellViewModel.swift; sourceTree = "<group>"; };
 		CAFF50F2F67EFC5BB695F5A4911D9DC8 /* Generate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generate.swift; path = RxSwift/Observables/Generate.swift; sourceTree = "<group>"; };
 		CB9DDBCC6603E0490BED8A191F8AB53D /* NSLayoutConstraint+Rx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSLayoutConstraint+Rx.swift"; path = "RxCocoa/Common/NSLayoutConstraint+Rx.swift"; sourceTree = "<group>"; };
 		CC7301AC975BDA5908367F8430541416 /* Driver+Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Driver+Subscription.swift"; path = "RxCocoa/Traits/Driver/Driver+Subscription.swift"; sourceTree = "<group>"; };
@@ -753,8 +753,8 @@
 		58342DE33733CC5C56AE23C01DCD64A9 /* FR_BaseComponent */ = {
 			isa = PBXGroup;
 			children = (
+				C8432A58210D7C5200AB204A /* Development */,
 				28F9FD25175FAD73C1329E7517B3E300 /* ReplaceMe.swift */,
-				C8432A32210D706700AB204A /* Development */,
 				DBCABBED75FCAA842967EB449561F9ED /* Pod */,
 				014E7F13B767676A6FA91162F585569D /* Support Files */,
 			);
@@ -1095,35 +1095,36 @@
 			path = RxCocoa;
 			sourceTree = "<group>";
 		};
-		C8432A32210D706700AB204A /* Development */ = {
+		C8432A58210D7C5200AB204A /* Development */ = {
 			isa = PBXGroup;
 			children = (
-				C8432A33210D708600AB204A /* BaseCell */,
+				C8432A59210D7C6600AB204A /* BaseCell */,
 			);
-			path = Development;
+			name = Development;
+			path = FR_BaseComponent/Classes/Development;
 			sourceTree = "<group>";
 		};
-		C8432A33210D708600AB204A /* BaseCell */ = {
+		C8432A59210D7C6600AB204A /* BaseCell */ = {
 			isa = PBXGroup;
 			children = (
-				C8432A34210D709200AB204A /* View */,
-				C8432A35210D709500AB204A /* ViewModel */,
+				C8432A5B210D7C6F00AB204A /* ViewModel */,
+				C8432A5A210D7C6B00AB204A /* View */,
 			);
 			path = BaseCell;
 			sourceTree = "<group>";
 		};
-		C8432A34210D709200AB204A /* View */ = {
+		C8432A5A210D7C6B00AB204A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C8432A36210D70BC00AB204A /* BaseCellView.swift */,
+				C8432A5C210D7C7B00AB204A /* BaseCellView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
 		};
-		C8432A35210D709500AB204A /* ViewModel */ = {
+		C8432A5B210D7C6F00AB204A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				C8432A38210D728600AB204A /* BaseCellViewModel.swift */,
+				C8432A5E210D7C8100AB204A /* BaseCellViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1668,9 +1669,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB2559694F00F1F3C004F869A6ABF047 /* FR_BaseComponent-dummy.m in Sources */,
-				C8432A39210D728600AB204A /* BaseCellViewModel.swift in Sources */,
+				C8432A5F210D7C8100AB204A /* BaseCellViewModel.swift in Sources */,
 				7F0B176F0D0ECFC57974D54FED216B9A /* ReplaceMe.swift in Sources */,
-				C8432A37210D70BC00AB204A /* BaseCellView.swift in Sources */,
+				C8432A5D210D7C7B00AB204A /* BaseCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
