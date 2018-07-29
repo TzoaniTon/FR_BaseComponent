@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FR_BaseComponent'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'FB_BaseComponent is base component of 4Rest'
   s.description      = '4Rest is Core Framework of iOS that consists of Data mapping, Merge data, Network manager, Security, Database manager and Presentation manager'
   s.homepage         = 'https://github.com/TzoaniTon/FR_BaseComponent'
@@ -31,4 +31,9 @@ Pod::Spec.new do |s|
   # File Structure #
   
   s.source_files = 'FR_BaseComponent/Classes/**/*.swift'
+  
+  # Dependency #
+  
+  s.dependency 'RxCocoa', '~> 4.0'
+  
 end

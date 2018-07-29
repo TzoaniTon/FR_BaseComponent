@@ -1,22 +1,30 @@
 {
   "name": "FR_BaseComponent",
   "version": "0.1.0",
-  "summary": "A short description of FR_BaseComponent.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Tzoani/FR_BaseComponent",
+  "summary": "FB_BaseComponent is base component of 4Rest",
+  "description": "4Rest is Core Framework of iOS that consists of Data mapping, Merge data, Network manager, Security, Database manager and Presentation manager",
+  "homepage": "https://github.com/TzoaniTon/FR_BaseComponent",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Tzoani": "darksky_ddd@hotmail.com"
+    "Sarinthon Mangkorn-ngam": "darksky_ddd@hotmail.com",
+    "Lalida Jaritsup": "lalida.jar@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Tzoani/FR_BaseComponent.git",
+    "git": "https://github.com/TzoaniTon/FR_BaseComponent.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "FR_BaseComponent/Classes/**/*"
+  "swift_version": "4.0",
+  "requires_arc": true,
+  "source_files": "FR_BaseComponent/Classes/**/*.swift",
+  "dependencies": {
+    "RxCocoa": [
+      "~> 4.0"
+    ]
+  }
 }
