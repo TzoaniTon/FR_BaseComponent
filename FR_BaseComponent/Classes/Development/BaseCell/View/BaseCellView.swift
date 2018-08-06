@@ -6,8 +6,9 @@
 //
 
 import UIKit
+import SwipeCellKit
 
-open class BaseCellView: UITableViewCell {
+open class BaseCellView: SwipeTableViewCell {
 
     override open func awakeFromNib() {
         super.awakeFromNib()

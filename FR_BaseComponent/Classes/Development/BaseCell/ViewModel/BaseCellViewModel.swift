@@ -8,6 +8,7 @@
 import Foundation
 import RxCocoa
 import RxSwift
+import SwipeCellKit
 
 enum ErrorCellViewModel: Error {
     case NotSetupCellView
@@ -21,6 +22,9 @@ open class BaseCellViewModel {
     public var cellHeight: CGFloat?
     public var cellSelectionStyle: UITableViewCellSelectionStyle?
     public var cellAccessoryType: UITableViewCellAccessoryType?
+    
+    public var swipeLeftCellAction: [SwipeAction]?
+    public var swipeRightCellAction: [SwipeAction]?
     
     public init(
         cellHeight: CGFloat?,

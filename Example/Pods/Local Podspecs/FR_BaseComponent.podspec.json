@@ -1,6 +1,6 @@
 {
   "name": "FR_BaseComponent",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "summary": "FB_BaseComponent is base component of 4Rest",
   "description": "4Rest is Core Framework of iOS that consists of Data mapping, Merge data, Network manager, Security, Database manager and Presentation manager",
   "homepage": "https://github.com/TzoaniTon/FR_BaseComponent",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/TzoaniTon/FR_BaseComponent.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "10.0"
@@ -25,6 +25,9 @@
   "dependencies": {
     "RxCocoa": [
       "~> 4.0"
+    ],
+    "SwipeCellKit": [
+      "~> 2.4"
     ]
   }
 }
