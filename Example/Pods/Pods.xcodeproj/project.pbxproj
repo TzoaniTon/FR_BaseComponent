@@ -250,6 +250,7 @@
 		C60BB4E0FD6C2D3B70A6C0BDBDAA4F37 /* Completable+AndThen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7B4170B9054FFD16CE16A7C19C898D /* Completable+AndThen.swift */; };
 		C834536FD7245653C73130A03698A1FB /* RxCollectionViewDataSourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A00AA9DC69F97FABD5AF7C77C39C74D /* RxCollectionViewDataSourceType.swift */; };
 		C88F748721180A4600F6775A /* SwipeCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88F748621180A4600F6775A /* SwipeCellModel.swift */; };
+		C88F74B42119583700F6775A /* UIView+LoadFromNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88F74B32119583700F6775A /* UIView+LoadFromNib.swift */; };
 		C99022E981886A3FA56796EFFC1BACFD /* UITextView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD3EA6D9618EB249E8BEBD12579B4E7 /* UITextView+Rx.swift */; };
 		CA245F3908A4D876E86985BDC8BEC53E /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA393AA449C1E3B7A2578F177E42478 /* Disposable.swift */; };
 		CA2B50B5923EE8925B1B8E7D0DA0683B /* UIScrollView+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537E57B661F8DBC10A44B08329358D3C /* UIScrollView+Rx.swift */; };
@@ -650,6 +651,7 @@
 		C68E92E385AC6DFA9B0A749E706E3A7A /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = RxSwift/Observables/Filter.swift; sourceTree = "<group>"; };
 		C78D62D3A026481881239FD1A3F87CB4 /* NSObject+Rx+KVORepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Rx+KVORepresentable.swift"; path = "RxCocoa/Foundation/NSObject+Rx+KVORepresentable.swift"; sourceTree = "<group>"; };
 		C88F748621180A4600F6775A /* SwipeCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCellModel.swift; sourceTree = "<group>"; };
+		C88F74B32119583700F6775A /* UIView+LoadFromNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LoadFromNib.swift"; sourceTree = "<group>"; };
 		C8B853894D43502A56DDDEE414AF41EC /* DelegateProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelegateProxy.swift; path = RxCocoa/Common/DelegateProxy.swift; sourceTree = "<group>"; };
 		C8C2779E787694FF0E2C00A0FEC1D198 /* SwipeOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeOptions.swift; path = Source/SwipeOptions.swift; sourceTree = "<group>"; };
 		C9DA1B8E10F7A340D2171E828F402BC7 /* DeprecationWarner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeprecationWarner.swift; path = Platform/DeprecationWarner.swift; sourceTree = "<group>"; };
@@ -1258,6 +1260,7 @@
 			isa = PBXGroup;
 			children = (
 				1C2794CBFB2B51B6F9EE6A1550231D71 /* UITextView+AdjustContentHeight.swift */,
+				C88F74B32119583700F6775A /* UIView+LoadFromNib.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -1755,6 +1758,7 @@
 				D7D482A2149483AA0C39D5E1F022DD07 /* FR_BaseComponent-dummy.m in Sources */,
 				F35A81D1CA7377B3F683F5AB54A5A65A /* ReplaceMe.swift in Sources */,
 				B6F63AE83A53730ACB70E80062AD0B10 /* UITextView+AdjustContentHeight.swift in Sources */,
+				C88F74B42119583700F6775A /* UIView+LoadFromNib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
