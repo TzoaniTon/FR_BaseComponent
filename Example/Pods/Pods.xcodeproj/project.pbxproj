@@ -1985,6 +1985,40 @@
 			};
 			name = Debug;
 		};
+		192EF4EA91578E4A91C0C10C8C25F108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8946ECD2F63F71AFDF735A254A668406 /* FR_BaseComponent.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FR_BaseComponent/FR_BaseComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FR_BaseComponent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FR_BaseComponent/FR_BaseComponent.modulemap";
+				PRODUCT_MODULE_NAME = FR_BaseComponent;
+				PRODUCT_NAME = FR_BaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		246C922F1988E69EBF48C5C876AA69B9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 59697552989AFF81EBC6CD98CE510053 /* Pods-FR_BaseComponent_Example.release.xcconfig */;
@@ -2055,73 +2089,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		37BDB9F145CB72BDA698313A6D51C0C8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8946ECD2F63F71AFDF735A254A668406 /* FR_BaseComponent.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FR_BaseComponent/FR_BaseComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FR_BaseComponent/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FR_BaseComponent/FR_BaseComponent.modulemap";
-				PRODUCT_MODULE_NAME = FR_BaseComponent;
-				PRODUCT_NAME = FR_BaseComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3A347B90ECB84FF67E3FD258996F0ADB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8946ECD2F63F71AFDF735A254A668406 /* FR_BaseComponent.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FR_BaseComponent/FR_BaseComponent-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FR_BaseComponent/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FR_BaseComponent/FR_BaseComponent.modulemap";
-				PRODUCT_MODULE_NAME = FR_BaseComponent;
-				PRODUCT_NAME = FR_BaseComponent;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4598865081465934B45C485D8FC1FDC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2312,6 +2279,39 @@
 			};
 			name = Debug;
 		};
+		9F75754988D3969279700D75AC137CE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8946ECD2F63F71AFDF735A254A668406 /* FR_BaseComponent.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FR_BaseComponent/FR_BaseComponent-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FR_BaseComponent/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FR_BaseComponent/FR_BaseComponent.modulemap";
+				PRODUCT_MODULE_NAME = FR_BaseComponent;
+				PRODUCT_NAME = FR_BaseComponent;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A03DBBB64855235598125B37F9BAE8E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 611C8E8A1C48620D6B94451E5D74520A /* SwipeCellKit.xcconfig */;
@@ -2483,8 +2483,8 @@
 		14B3DCE0677D6188676A06408F4DA506 /* Build configuration list for PBXNativeTarget "FR_BaseComponent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A347B90ECB84FF67E3FD258996F0ADB /* Debug */,
-				37BDB9F145CB72BDA698313A6D51C0C8 /* Release */,
+				9F75754988D3969279700D75AC137CE8 /* Debug */,
+				192EF4EA91578E4A91C0C10C8C25F108 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
