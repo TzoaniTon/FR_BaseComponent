@@ -1,11 +1,12 @@
 PODS:
-  - FR_BaseComponent (1.1.6):
-    - RxCocoa (~> 4.2.0)
-    - SwipeCellKit (~> 2.4.3)
+  - FR_BaseComponent (1.1.8):
+    - RxCocoa (= 4.2.0)
+    - RxSwift (= 4.2.0)
+    - SwipeCellKit (= 2.5.0)
   - RxCocoa (4.2.0):
     - RxSwift (~> 4.0)
-  - RxSwift (4.3.0)
-  - SwipeCellKit (2.4.3)
+  - RxSwift (4.2.0)
+  - SwipeCellKit (2.5.0)
 
 DEPENDENCIES:
   - FR_BaseComponent (from `../`)
@@ -21,10 +22,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FR_BaseComponent: d3525630d231a6e5b8c34fc4cdea6fa2772780ae
+  FR_BaseComponent: 831adcd2cec856b1b67d8a01c7b6d1f923bb4801
   RxCocoa: 0b54909c902e1e581212a03e690bbd94032d8baa
-  RxSwift: a9717a34df3179fe63563f76e046ad345078dd3a
-  SwipeCellKit: cee9906e6d3a36e22ad1a852fba7f8fa0839d113
+  RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  SwipeCellKit: d8f2617538ce3021cb0a11d1b93856a06a2f2e20
 
 PODFILE CHECKSUM: d8b2010c5b2d082cfd316476d0addcfe14b09408
 
