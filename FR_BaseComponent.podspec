@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FR_BaseComponent'
-  s.version          = '1.2.2'
+  s.version          = '1.2.3'
   s.summary          = 'FB_BaseComponent is base component of 4Rest'
   s.description      = '4Rest is Core Framework of iOS that consists of Data mapping, Merge data, Network manager, Security, Database manager and Presentation manager'
   s.homepage         = 'https://github.com/TzoaniTon/FR_BaseComponent'
