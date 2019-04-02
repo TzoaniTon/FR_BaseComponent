@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FR_BaseComponent'
-  s.version          = '1.3.0'
+  s.version          = '1.3.1'
   s.summary          = 'FB_BaseComponent is base component of 4Rest'
   s.description      = '4Rest is Core Framework of iOS that consists of Data mapping, Merge data, Network manager, Security, Database manager and Presentation manager'
   s.homepage         = 'https://github.com/TzoaniTon/FR_BaseComponent'
@@ -36,6 +36,6 @@ Pod::Spec.new do |s|
   
   s.dependency 'RxCocoa', '~> 4.4'
   s.dependency 'RxSwift', '~> 4.5'
-  s.dependency 'SwipeCellKit', '2.5.0'
+  s.dependency 'SwipeCellKit', '~> 2.5'
   
 end
