@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FR_BaseComponent'
-  s.version          = '1.3.1'
+  s.version          = '1.4.0'
   s.summary          = 'FB_BaseComponent is base component of 4Rest'
   s.description      = '4Rest is Core Framework of iOS that consists of Data mapping, Merge data, Network manager, Security, Database manager and Presentation manager'
   s.homepage         = 'https://github.com/TzoaniTon/FR_BaseComponent'
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # Platform required #
 
   s.ios.deployment_target = '10.0'
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
   s.requires_arc = true
 
   # File Structure #
@@ -34,8 +34,8 @@ Pod::Spec.new do |s|
   
   # Dependency #
   
-  s.dependency 'RxCocoa', '~> 4.4'
+  s.dependency 'RxCocoa', '~> 4.5'
   s.dependency 'RxSwift', '~> 4.5'
-  s.dependency 'SwipeCellKit', '~> 2.5'
+  s.dependency 'SwipeCellKit', '~> 2.6'
   
 end
