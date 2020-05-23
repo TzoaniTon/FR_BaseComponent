@@ -19,18 +19,19 @@
   "platforms": {
     "ios": "10.0"
   },
-  "swift_version": "5.0",
+  "swift_versions": "5.0",
   "requires_arc": true,
   "source_files": "FR_BaseComponent/Classes/**/*.swift",
   "dependencies": {
     "RxCocoa": [
-      "~> 4.5"
+      "~> 5.1"
     ],
     "RxSwift": [
-      "~> 4.5"
+      "~> 5.1"
     ],
     "SwipeCellKit": [
-      "~> 2.6"
+      "~> 2.7"
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
