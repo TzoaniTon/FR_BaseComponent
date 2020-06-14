@@ -32,7 +32,7 @@ open class BaseCellViewModel: NSObject {
         key: String?=nil,
         cellHeight: CGFloat?,
         cellSelectionStyle: UITableViewCell.SelectionStyle = .none,
-        cellAccessoryType:  UITableViewCell.AccessoryType = .none
+        cellAccessoryType:  UITableViewCell.AccessoryType? = Optional.none
         ) {
         self.key = key
         self.cellHeight = cellHeight
